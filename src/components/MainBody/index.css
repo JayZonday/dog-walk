@@ -1,9 +1,36 @@
+.main-service-schedule{
+  background: #73C2FB;
+  margin: -3% auto;
+}
 .service-btn{
   width: 28%;
   height: 250px;
   border-radius: 100%;
+  color: #aaa;
+  border: 2px solid #aaa;
+  cursor: pointer;
   margin: 2%;
+  font-family: 'Carter One', cursive;
+  font-size: 22px;
+  transition: .35s ease-in-out;
+}
+.service-btn:hover{
+  color: black;
+  border: 2px solid black;;
+}
+.title{
+  font-family: 'Carter One', cursive;
 }
 .title#schedule-title{
   margin: 3%;
+  font-size: 24px;
+}
+.title#media-title{
+
+  margin: 3%;
+  font-size: 24px;
+}
+.main-media-box{
+  margin: 1% auto;
+  background: white;
 }

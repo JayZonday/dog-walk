@@ -6,11 +6,12 @@ class MainBody extends Component {
     return (
       <div>
         <div className='main-service-schedule'>
-          <h3 className='title' id='schedule-title'>Schedule with Paw Patrol Today!</h3>
+          <h3 className='title' id='schedule-title'>Schedule with Paw Pawtrol Today!</h3>
           <button className='service-btn' id='walk'>Schedule a Walk</button>
           <button className='service-btn' id='dropin'>Schedule a Drop-in</button>
           <button className='service-btn' id='overnight'>Book an Overnight Stay</button>
         </div>
+
         <div className='main-media-box'>
           <h3 className='title' id='media-title'>Meet The Puppy Pawtrol</h3>
           <div className='media' id='photos'>Photos</div>
