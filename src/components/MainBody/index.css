@@ -1,6 +1,7 @@
 .main-service-schedule{
   background: #73C2FB;
   margin: -3% auto;
+  height: 425px;
 }
 .service-btn{
   width: 28%;
@@ -26,11 +27,33 @@
   font-size: 24px;
 }
 .title#media-title{
-
   margin: 3%;
   font-size: 24px;
 }
 .main-media-box{
   margin: 1% auto;
   background: white;
+  display: flex;
 }
+ .media{
+   border: 1px solid #aaa;
+   height: 250px;
+   width: 30%;
+   margin: 3%;
+   transition: 25s ease-in-out;
+ }
+ .main-reviews-box{
+   background-image: url('https://images-na.ssl-images-amazon.com/images/I/51RwfU9XYlL.jpg');
+   background-size: auto;
+   background-repeat: repeat;
+   height: 345px;
+   display: flex;
+ }
+ .review{
+   background: white;
+   width: 27%;
+   height: 220px;
+   margin: 4% auto;
+   border: 2px solid black;
+   padding: 1%;
+ }

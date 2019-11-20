@@ -1,4 +1,14 @@
 .footer-link-line{
   background: black;
   width: 100%;
+  text-align: right;
+}
+.footer-link{
+  color: #73C2FB;
+  width: 98%;
+  cursor: pointer;
+  transition: .23s ease-in-out;
+}
+.footer-link:hover{
+  font-weight: bold;
 }

@@ -6,10 +6,10 @@ class Footer extends Component {
     return (
       <div>
         <div className='footer-link-line'>
+          <div className='footer-link' id='register'>Register</div>
           <div className='footer-link' id='linkedin'>LinkedIn</div>
           <div className='footer-link' id='twitter'>Twitter</div>
           <div className='footer-link' id='instagram'>Instagram</div>
-          <div className='footer-link' id='register'>Register</div>
         </div>
       </div>
     );

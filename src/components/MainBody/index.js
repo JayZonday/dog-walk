@@ -18,7 +18,9 @@ class MainBody extends Component {
           <div className='media' id='videos'>Videos</div>
         </div>
         <div className='main-reviews-box'>
-          Recent Reviews
+          <div className='review'>Recent Reviews</div>
+          <div className='review'>Recent Reviews</div>
+          <div className='review'>Recent Reviews</div>
         </div>
 
       </div>
