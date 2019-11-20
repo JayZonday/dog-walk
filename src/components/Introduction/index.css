@@ -1,9 +1,12 @@
 .intro-box{
-  width: 80%;
-  margin: 4% auto;
+  width: 100%;
+  background: black;
 }
 .intro{
-  width: 100%;
+  width: 90%;
   font-size: 18px;
   font-family: 'Abel', sans-serif;
+  margin: 2% 0 0 2%;
+  color: white;
+  padding: 2%;
 }

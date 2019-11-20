@@ -1,0 +1,9 @@
+.service-btn{
+  width: 28%;
+  height: 250px;
+  border-radius: 100%;
+  margin: 2%;
+}
+.title#schedule-title{
+  margin: 3%;
+}

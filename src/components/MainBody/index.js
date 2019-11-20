@@ -9,6 +9,7 @@ class MainBody extends Component {
           <h3 className='title' id='schedule-title'>Schedule with Paw Patrol Today!</h3>
           <button className='service-btn' id='walk'>Schedule a Walk</button>
           <button className='service-btn' id='dropin'>Schedule a Drop-in</button>
+          <button className='service-btn' id='overnight'>Book an Overnight Stay</button>
         </div>
         <div className='main-media-box'>
           <h3 className='title' id='media-title'>Meet The Puppy Pawtrol</h3>
