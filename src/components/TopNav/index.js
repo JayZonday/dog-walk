@@ -6,7 +6,7 @@ class TopNav extends Component {
     return (
       <div>
       <div className='navbar'>
-        <button className='nav-btn'>Contact Jay</button>
+        <button className='nav-btn'>Contact</button>
         <button className='nav-btn'>Services</button>
         <button className='nav-btn'>About</button>
         <button className='nav-btn'>Store</button>
