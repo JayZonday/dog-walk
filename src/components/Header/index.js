@@ -5,7 +5,10 @@ class Header extends Component {
   render(){
     return (
       <div>
-      Jay's Paw Patrol
+        <div className='title-box'>
+          <h1 className='main-title' >Jay's Paw Patrol</h1>
+          <h3 className='main-title-desc'>Dog Walk - Dog Daycare - Dog Drop-ins</h3>
+        </div>
       </div>
     );
   }
