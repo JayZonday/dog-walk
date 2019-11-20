@@ -1,0 +1,9 @@
+.intro-box{
+  width: 80%;
+  margin: 4% auto;
+}
+.intro{
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Abel', sans-serif;
+}

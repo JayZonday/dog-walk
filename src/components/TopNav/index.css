@@ -1,17 +1,58 @@
 .navbar{
   width: 100%;
+  background: #000000;
 }
 .nav-btn{
   width: 25%;
   padding: 1%;
-  background: #FFFFFF;
-  font-size: 20px;
+  background: #000000;
+  font-size: 18px;
   cursor: pointer;
   border-radius: none;
   border: none;
   transition: .25s ease-in-out;
+  color: #aaa;
+  font-family: 'Carter One', cursive;
 }
 .nav-btn:hover{
   background: #73C2FB;
   color: white;
+}
+
+.drop-down#about{
+  position: absolute;
+  display: none;
+  margin: 0 0 0 50%;
+  width: 25%;
+  text-align: center;
+  transition: .35s ease-in-out;
+}
+.drop-down#services{
+  position: absolute;
+  display: none;
+  margin: 0 0 0 25%;
+  width: 25%;
+  text-align: center;
+  transition: .35s ease-in-out;
+}
+.drop-down#contact{
+  position: absolute;
+  display: none;
+  margin: 0 0 0 0%;
+  width: 25%;
+  text-align: center;
+  transition: .35s ease-in-out;
+}
+.drop-item{
+  background: black;
+  color: #aaa;
+  padding: 1%;
+  font-family: 'Carter One', cursive;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  font-size: 15px;
+}
+.drop-item:hover{
+  background: #73C2FB;
+  color: #FFFFFF;
 }

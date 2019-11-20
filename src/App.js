@@ -10,11 +10,11 @@ class App extends Component {
   render(){
     return (
       <div>
-      <TopNav/>
-      <Header/>
-      <Introduction/>
-      <MainBody/>
-      <Footer/>
+        <TopNav/>
+        <Header/>
+        <Introduction/>
+        <MainBody/>
+        <Footer/>
       </div>
     );
   }

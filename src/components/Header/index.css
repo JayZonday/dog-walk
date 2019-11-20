@@ -3,11 +3,14 @@
   font-size: 60px;
   width: 33%;
   padding: 1.5%;
-  margin: 3% 0 0 5%;
+  margin: 7% 0 0 5%;
   border: 1px solid #000000;
+  background: white;
 }
 .main-title-desc{
-  margin: 2% 0 0 10%;
+  margin: 1% 0 0 12%;
+  font-family: 'Abel', sans-serif;
+  background: white;
 }
 .title-offer{
   position: absolute;
@@ -16,8 +19,14 @@
   text-align: center;
   padding: 1%;
   font-size: 28px;
-  margin: -12% 0 0 50%;
+  margin: -11% 0 0 50%;
   background: #73C2FB;
   color: white;
   cursor: pointer;
+  font-family: 'Abel', sans-serif;
+}
+.title-box{
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/51RwfU9XYlL.jpg');
+  background-size: auto;
+  background-repeat: repeat;
 }
