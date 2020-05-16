@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom'
+import WhitePaws from './whitepaw.png'
 import './index.css';
+
 
 class TopNav extends Component {
 
@@ -29,6 +32,7 @@ class TopNav extends Component {
     return (
       <div>
         <div className='navbar'>
+          <NavLink to='/'><button className='nav-btn'>Home</button></NavLink>
           <button className='nav-btn' onClick={() => this.handleContact()}>Contact</button>
           <button className='nav-btn' onClick={() => this.handleServices()}>Services</button>
           <button className='nav-btn' onClick={() => this.handleAbout()}>About</button>
@@ -44,8 +48,8 @@ class TopNav extends Component {
           <div className='drop-item'>Overnight Stay</div>
         </div>
         <div className='drop-down' id='about'>
-          <div className='drop-item'>History</div>
-          <div className='drop-item'>Employees</div>
+          <NavLink to='/about'><div className='drop-item'>About</div></NavLink>
+          <NavLink to='/employees'><div className='drop-item'>Employees</div></NavLink>
         </div>
 
       </div>

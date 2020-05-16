@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import TopNav from './components/TopNav';
-import Header from './components/Header';
-import Introduction from './components/Introduction';
-import MainBody from './components/MainBody';
-import Footer from './components/Footer';
+import Home from './Home.js';
+import Employment from './components/Employment';
+import About from './components/About';
+
+
 import './App.css';
 
 class App extends Component {
   render(){
     return (
-      <div>
-        <TopNav/>
-        <Header/>
-        <Introduction/>
-        <MainBody/>
-        <Footer/>
-      </div>
+      <Router>
+        <div>
+          <TopNav/>
+        </div>
+        <Switch>
+          <Route path='/' exact component={ Home } />
+          <Route path='/employees' exact component={ Employment } />
+          <Route path='/about' exact component={ About } />
+        </Switch>
+      </Router>
     );
   }
 }

@@ -6,7 +6,18 @@
   width: 90%;
   font-size: 18px;
   font-family: 'Abel', sans-serif;
-  margin: 2% 0 0 2%;
+  margin: 0% 0 0 2%;
   color: white;
-  padding: 3%;
+  padding-bottom: 5%;
+}
+.intro-pic{
+  margin: 4%;
+  height: 275px;
+  width: 25%;
+  border-radius: 2%;
+}
+.intro-pic-box{
+  justify-content: center;
+  width: 100%;
+  display: flex;
 }
